@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Jupycling</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="imagens/logo.png"
+                alt="Logo da empresa Jupycling, com uma letra 'J' e um desemho de colares separados por uma barra.">
+            <div id="links">
+                <a href="index.html">Sobre</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="ajuda.html">Ajuda</a>
+            </div>
+        </nav>
+    </header>
+
+    <form>
+        <h1>Está com algum problema?</h1>
+        <h3> Descreva sua dúvida/problema no formulário abaixo ou entre em contato por algum dos meios de
+            comunicação abaixo.</h3>
+        <section id="contato">
+            <div class="contato1">
+                <a href="mailto:Jupcycling@gmail.com" title="Envie um e-mail"><img src="imagens/emailvermelho.png"
+                        alt="Ícone de um envelope vermelho, representando o e-mail."></a>
+            </div>
+            <div class="contato2">
+                <a href="tel:+551185624728" title="Ligue"> <img src="imagens/telefonevermelho.png"
+                        alt="Ícone de um telefone vermelho."></a>
+            </div>
+        </section>
+        <legend id="forms">
+            <label for="name">
+                Nome: <br>
+                <input type="text" name="TxtName" id="nome" placeholder="Digite seu nome">
+            </label>
+            <label for="fone">
+                Telefone: <br>
+                <input type="text" name="Telefone" id="fone" placeholder="Digite seu telefone">
+            </label>
+            <label for="email">
+                <br> E-mail: <br>
+                <input type="email" name="Email" id="email" placeholder="Digite seu e-mail">
+            </label>
+            <label for="problem">
+                Qual o seu problema? <br>
+                <select name="problem" id="problema">
+                    <option value="z" disabled selected>Selecione seu problema</option>
+                    <option value="a"> O link do produto não direciona a página de compra do site.</option>
+                    <option value="b"> O email da desenvolvedora aparece como "Não encontrado".</option>
+                    <option value="c"> O site está muito lento.</option>
+                    <option value="d"> Após clicar em um link do cabeçalho, é direcionado a uma página totalmente
+                        diferente.</option>
+                    <option value="e"> Os textos e as imagens do site estão desordenados. </option>
+                    <option value="f"> O site cita informações que não condizem com a realidade.</option>
+                    <option value="g"> Outro.</option>
+                </select>
+            </label>
+            <label for="descricao">
+                <br> Descreva seu problema: <br>
+                <textarea name="descricao" id="descricao" placeholder="Digite seu problema"></textarea>
+            </label>
+            <label for="arquivo">
+                <br> Adicione arquivos se necessário: <br>
+                <input type="file" name="file" id="file">
+            </label>
+            <label for="submit"> <br>
+                <input type="submit" name="submit" id="submit" value="Enviar">
+            </label>
+            <label for="reset">
+                <input type="reset" name="reset" id="reset" value="Limpar">
+            </label>
+        </legend>
+    </form>
+    <footer> 
+        <p> Jupycling - Todos os direitos reservados &copy; </p>
+        <p class="info"> 2024 - 1º Informática - Julia </p>
+        <img src="imagens/logo.png"
+            alt="Logo da empresa Jupycling, com uma letra 'J' e um desemho de colares separados por uma barra.">
+    </footer>
+</body>
+
+</html>

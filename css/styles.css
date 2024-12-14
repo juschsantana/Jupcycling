@@ -1,0 +1,347 @@
+@font-face {
+    font-family: "Lora";
+    src: url(../fontes/Lora-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Bona Nova";
+    src: url(../fontes/BonaNovaSC-Regular.ttf);
+}
+@font-face{
+    font-family: "Bona Nova Negrito";
+    src: url(../fontes/BonaNovaSC-Bold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #005f73;
+    width: 99%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+header img{
+    width: 170px;
+    float: left;
+    margin-left: 30px;
+}
+header a{
+    text-align: center;
+    margin-left: 180px;
+    font-family: "Bona Nova Negrito";
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+#links{
+    float: right;
+    padding-top: 12px;
+    margin-right: 350px;
+    text-align: center;
+}
+a:hover{
+    color: #ee9b00;
+}
+footer{
+    background-color: #005f73;
+    width: 99%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-top: 50px;
+    margin-top: 400px;
+    margin-bottom: 15px;
+}
+footer img{
+    width: 170px;
+    margin-left: 45%;
+    margin-top: -150px;
+}
+.info{
+    float: right;
+    margin-right: 100px;
+}
+footer p{
+    margin-left: 100px;
+    font-family: "Lora";
+    font-size: 19px;
+    color: white;
+    float: left;
+}
+.produto-esq{
+    margin-top: 400px;
+    margin-left: 200px;
+    color: white;
+    width: 1000px;
+    margin-bottom: 300px;
+    font-size: 20px;
+}
+.produto-esq-gota{
+    margin-top: 300px;
+    margin-left: 200px;
+    color: white;
+    width: 1000px;
+    margin-bottom: 100px;
+    font-size: 21px;
+}
+.produto-esq-gota h2{
+    font-family: "Bona Nova Negrito";
+    color: #ee9b00;
+    font-size: 34px;
+}
+.produto-esq button{
+    background-color: #ae2012;
+    color: white;
+    margin-left: 400px;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 30px; 
+}
+.produto-esq-gota button{
+    background-color: #ae2012;
+    color: white;
+    margin-left: 400px;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.produto-esq-gota img{
+    float: left;
+    width: 350px;
+    margin-right: 29px;
+    border: 15px, #ae2012;
+    border-style: double;
+}
+.produto-esq h2{
+    font-family: "Bona Nova Negrito";
+    color: #ee9b00;
+    font-size: 34px;
+}
+.produto-esq img{
+    float: left;
+    width: 350px;
+    margin-right: 29px;
+    border: 15px, #ae2012;
+    border-style :double;
+}
+.produto-esq p{
+    text-align: left;
+    margin-left: 50px;
+    font-family: "Lora";
+}
+.produto-dir{
+    margin-top: 200px;
+    margin-left: 300px;
+    color: white;
+    width: 940px;
+    text-align: right;
+    font-size: 27px;
+}
+.produto-dir h2{
+    font-family: "Bona Nova Negrito";
+    color: #ee9b00;
+}
+.produto-dir-colar{
+    margin-top: 380px;
+    margin-left: 300px;
+    color: white;
+    width: 900px;
+    text-align: right;
+    font-size: 27px;
+}
+.produto-dir-colar img{
+    float: right;
+    width: 350px;
+    margin-left: 29px;
+    border: 15px, #ca6702;
+    border-style: double;
+}
+.produto-dir-colar h2{
+    font-family: "Bona Nova Negrito";
+    color: #ee9b00;
+}
+.produto-dir-colar button{
+    background-color:#ca6702;
+    color: white;
+    margin-right: 240px;
+    margin-top: 50px;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.produto-dir button{
+    background-color: #ca6702;
+    color: white;
+    margin-right: 240px;
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px; 
+}
+.produto-dir img{
+    float: right;
+    width: 350px;
+    margin-left: 29px;
+    border: 15px, #ca6702;
+    border-style: double;
+}
+.produto-dir p{
+    font-family: "Lora";
+}
+.descricao1{
+    width: 80%;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    color:white;
+}
+.descricao1 h1{
+    font-size: 34px;
+    color: #ee9b00;
+    font-family: "Bona Nova Negrito";
+}
+.descricao1 p{
+    font-size: 28px;
+    font-family: "Lora";
+}
+span{
+    color: #e9d8a6;
+    text-decoration: underline;
+}
+.descricao2{
+    width: 80%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    color:white;
+}
+.descricao2 h1{
+    font-size: 34px;
+    color: #ca6702;
+    font-family: "Bona Nova Negrito";
+}
+
+.p1{
+    font-size: 28px;
+    font-family: "Lora";
+    width: 800px;
+}
+.p2{
+    font-size: 28px;
+    font-family: "Lora";
+    width: 1200px;
+}
+.descricao2 img{
+    width: 400px;
+    float: right;
+    margin-top: -600px;
+}
+.descricao2 a{
+    color: #ca6702;
+}
+.descricao2 h1:hover{
+    color: #e9d8a6;
+}
+.descricao2 a:hover{
+    color: #e9d8a6;
+}
+body{
+    background-color: #001219;
+}
+form{
+    color: black;
+    width: 70%;
+    background-color: #e9d8a6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 320px;
+    border-radius: 15px;
+    padding: 30px;
+}
+form h1{
+    font-family: "Bona Nova Negrito";
+    color:#ae2012;
+}
+form h3{
+    font-size: 25px;
+    font-family: "Lora";
+}
+#contato{
+    margin-top: 30px;
+}
+.contato1 img{
+    width: 200px;
+    float: left;
+    margin-left: 300px;
+}
+.contato2 img{
+    width: 200px;
+    float: right;
+    margin-right: 320px;
+}
+label{
+    margin-right: 60px;
+    font-family: "Lora";
+}
+#nome{
+    width: 300px;
+}
+#fone{
+    margin-left: 365px;
+    width: 200px;
+}
+#email{
+    width: 300px;
+}
+#problema{
+    margin-left: 365px;
+    width: 300px;
+}
+#forms{
+    margin-left: 200px;
+    font-size: 24px;
+    margin-top: 90px;
+}
+textarea{
+    width: 680px;
+    height: 90px;
+}
+#file{
+    width: 900px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+#submit{
+    font-size: 26px;
+    border-radius: 10px;
+    margin-left: 200px;
+    padding: 5px;
+    font-family: "Lora";
+    background-color: #ae2012;
+    color: white;
+    margin-bottom: 30px;
+}
+#reset{
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 5px;
+    font-family: "Lora";
+    background-color: #ee9b00;
+    color: white;
+}
+input{
+    font-size: 16px;
+}
+select{
+    font-size: 16px;
+}
